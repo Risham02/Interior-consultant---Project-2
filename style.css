@@ -1,0 +1,256 @@
+body{
+    margin: 0px;
+    background-color: black;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    min-height: 100vh;
+    position: relative;
+    box-sizing: border-box;
+    padding: 10px;
+}
+a{
+    color: white;
+    text-decoration: none;
+    text-align: center;
+}
+nav{
+    padding: 20px;
+    display: block;
+    box-sizing: border-box;
+    overflow: auto;
+}
+h2{
+    margin: 10px 0px;
+}
+footer{
+    text-align: center;
+    color: rgb(147, 147, 147);
+    box-sizing: border-box;
+    width: 100%;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+}
+.collapse{
+    display: inline;
+}
+.navbutton input{
+    position: absolute;
+    top: 32px;
+    margin: 0px;
+    right: 10px;
+    cursor: pointer;
+    height: 40px;
+    width: 40px;
+    z-index: 3;
+    opacity: 0;
+    display: none;
+}
+.bar{
+    width: 35px;
+    height: 5px;
+    background-color: white;
+    margin: 6px 2px;
+    z-index: 2;
+}
+.cross{
+    display: none;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 33px;
+    text-align: center;
+    padding: 0px;
+    margin: 0px;
+}
+.checkmark {
+    float: right;
+    height: 40px;
+    width: 40px;
+    background-color: black;
+    overflow: auto;
+    z-index: 1;
+}
+.navbutton input:checked ~ .checkmark  {
+    background-color: black;
+}
+.navbutton input:checked ~ .checkmark .bar  {
+    display: none;
+    margin: 0px;
+}
+.navbutton input:checked ~ .checkmark .cross  {
+    display: block;
+    z-index: 2;
+    color: white;
+}
+.navbutton input ~ .checkmark:hover {
+    background-color: white;
+}
+.navbutton input ~ .checkmark:hover .bar {
+    background-color: black;
+}
+.navbutton input:checked ~ .checkmark:hover .cross {
+    color: black;
+}
+.navbutton .checkmark{
+    display: none;
+}
+.navbox{
+    float: left;
+    padding: 10px;
+    border: 2px solid white;
+}
+.navbox:hover{
+    background-color: white;
+    color: black;
+}
+.navlink{
+    float: right;
+    padding: 20px 40px;
+    font-size: 16px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    box-sizing: border-box;
+}
+.navlink:hover{
+    background-color: white;
+    color: black;
+}
+#active{
+    border-bottom: 3px solid white;
+}
+.container{
+    display: block;
+    overflow: auto;
+    width: 100%;
+    box-sizing: border-box;
+    margin-top: 50px;
+}
+.box-1{
+    width: 35%;
+    box-sizing: border-box;
+    float: left;
+    height: 100%;
+}
+.box-2{
+    width: 60%;
+    float: right;
+    box-sizing: border-box;
+    position: relative;
+}
+.box-3{
+    width: 50%;
+    background-color: #101010;
+    margin-left: 40%;
+    z-index: 2;
+    position: relative;
+    bottom: 10vw;
+    padding: 10px;
+    box-sizing: border-box;
+    border: 1px solid white;
+}
+.box-4{
+    width: 100%;
+    overflow: auto;
+    box-sizing: border-box;
+}
+.box-5{
+    max-width: 400px;
+    float: left;
+    box-sizing: border-box;
+    overflow: auto;
+}
+.box-6{
+    max-width: 400px;
+    margin: auto;
+    margin-top: 10vw;
+}
+.img1{
+    width: 100%;
+    z-index: 1;
+}
+.img2{
+    border-radius: 50%;
+    width: 100px;
+    padding: 20px;
+    box-sizing: border-box;
+    float: left;
+}
+.para1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+}
+.para2{
+    color: gray;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+}
+.para3{
+    font-size: 24px;
+    font-weight: bold;
+}
+.readmore{
+    font-size: 18px;
+}
+.readmore:hover{
+    color: royalblue;
+}
+@media(max-width:751px){
+    nav{
+        padding: 0px;
+    }
+    #active{
+        border-bottom: 1px solid white;
+    }
+    .navbutton{
+        display: block;
+    }
+    .navbutton input{
+        display: block;
+    }
+    .navbutton .checkmark{
+        display: inline-block;
+        position: relative;
+        bottom: 60px;
+    }
+    .navbutton input ~ .collapse{
+        display: none;
+    }
+    .navbutton input:checked ~ .collapse{
+        display: block;
+        position: relative;
+    }
+    .navbox{
+        width: max-content;
+        display: inline-block;
+        float: none;
+        margin: 20px;
+    }
+    .navlink{
+        display: block;
+        width: 100%;
+        float: none;
+        border-top: 1px solid white;
+    }
+    .container{
+        margin-top: 50px;
+    }
+
+    .box-1{
+        width: 100%;
+        float: none;
+    }
+    .box-2{
+        width: 100%;
+        float: none;
+        margin-top: 50px;
+    }
+    .box-3{
+        width: 80%;
+        margin: auto;
+        bottom: 10vw;
+    }
+    .box-6{
+        margin: 10px;
+    }
+    .para1{
+        font-size: 16px;
+    }
+}   
