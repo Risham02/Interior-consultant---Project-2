@@ -43,6 +43,7 @@ Introduce your projects by taking a screenshot or a gif. Try to tell visitors a 
 - Where can I see your demo?
 - What was your experience?
 - What have you learned/improved?
+  I learnt how to make a dropdown navigation bar using only CSS.
 - Your wisdom? :)
 
 ### Built With
