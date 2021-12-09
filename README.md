@@ -39,14 +39,9 @@
 ![screenshot](https://github.com/Risham02/Interior-consultant---Project-2/blob/main/Screenshot%20Computer.png)
 ![screenshot](https://github.com/Risham02/Interior-consultant-Project-2/blob/main/Screenshot%20Mobile.png)
 
-Introduce your projects by taking a screenshot or a gif. Try to tell visitors a story about your project by answering:
 
-- Where can I see your demo?
-- What was your experience?
-- What have you learned/improved?
-  The most challenging part of this project was to make a dropdown navigation bar. 
-- Your wisdom? :)
-
+  The most challenging part of this project was when I tried to make a dropdown navigation bar. I had a hard time searching for a way to make it with only HTML and CSS, until I had the idea of using a button. Even after that, it was challenging to try to disguise my button to fit the theme of the page, since the standard button in HTML would really stand out. But it was fun, especially the joy I felt when I figured it out.
+  
 ### Built With
 
 <!-- This section should list any major frameworks that you built your project using. Here are a few examples.-->
