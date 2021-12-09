@@ -37,13 +37,14 @@
 ## Overview
 
 ![screenshot](https://github.com/Risham02/Interior-consultant---Project-2/blob/main/Screenshot%20Computer.png)
+![screenshot](https://github.com/Risham02/Interior-consultant-Project-2/blob/main/Screenshot%20Mobile.png)
 
 Introduce your projects by taking a screenshot or a gif. Try to tell visitors a story about your project by answering:
 
 - Where can I see your demo?
 - What was your experience?
 - What have you learned/improved?
-  I learnt how to make a dropdown navigation bar using only CSS.
+  The most challenging part of this project was to make a dropdown navigation bar. 
 - Your wisdom? :)
 
 ### Built With
